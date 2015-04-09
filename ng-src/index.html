@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>angular-boilerplate</title>
+	<link rel="stylesheet" href="../build/css/bootstrap.css">
+	<link rel="stylesheet" href="../build/css/font-awesome.css">
+	<link rel="stylesheet" href="../build/css/style.css">
+</head>
+<body ng-app="angular-boilerplate">
+	
+	<div class="container" ng-controller="OneCtrl">
+		<div class="row">
+			<div class="col-xs-6">
+				<h1>angular-boilerplate</h1>
+				<div class="greeting">					
+					{{ message }}
+				</div>
+				<button class="btn btn-primary" ng-click="sayGoodbye()">Say Goodbye</button>	
+			</div>
+		</div>
+	</div>
+	
+	<!-- vendor and app scripts -->
+	<script src="../build/js/vendor.min.js"></script>
+	<script src="../build/js/app.js"></script>
+	
+</body>
+</html>
