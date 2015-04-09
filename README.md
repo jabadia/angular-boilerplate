@@ -13,10 +13,9 @@ start grunt concurrent watch task:
 	
 and point your browser to `build/index.html`, for instance starting up one simple server in the build dir
 
-	$ cd build
 	$ python -m SimpleHTTPServer 8000
 
-and then navigate your browser to [http://127.0.0.1:8000/index.html](http://127.0.0.1:8000/index.html)
+and then navigate your browser to [http://127.0.0.1:8000/build/index.html](http://127.0.0.1:8000/build/index.html)
 
 # structure
 
